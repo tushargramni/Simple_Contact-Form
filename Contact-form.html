@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Contact Form</title>
+ 
+  </head>
+  <body>
+    <h1 class="heading">Contact Us</h1>
+    <form action="" style="background: white">
+      <label for="names" id="names" class="items">
+        <label for="firstname" id="firstname" class="name">
+          <span>First Name * </span>
+          <input type="text" id="first" required />
+        </label>
+
+        <label for="lastname" id="lastname" class="name">
+          <span>Last Name *</span>
+          <input type="text" id="last" required />
+        </label>
+      </label>
+
+      <label for="email-address" id="email-id" class="items">
+        <span>Email-Address *</span>
+        <input type="email" id="email" required />
+      </label>
+
+      <label for="radio-btn" id="radioBtn" class="items">
+        <span>Quality Type *</span>
+
+        <label for="Quality-type" class="enquiry-items">
+          <label for="enquiry">
+            <input type="radio" name="same" id="Enquiry" required />
+            <span>Genral Enquiry</span>
+          </label>
+
+          <label for="Support-Request">
+            <input type="radio" name="same" id="Request" required />
+            <span>Support Request</span>
+          </label>
+        </label>
+      </label>
+
+      <label for="feedback" id="Message" class="items">
+        <span>Message</span>
+        <textarea
+          name="message"
+          id="message"
+          resize="none"
+          rows="10"
+          
+        ></textarea>
+      </label>
+
+      <label for="checkbox" id="consent" class="items">
+        <span><input type="checkbox" name="" id="" /> I consent to being contacted by the team </span>
+      </label>
+
+      <button type="submit" class="items" style="background: #0c7c69">
+        Sumit
+      </button>
+    </form>
+  </body>
+</html>
